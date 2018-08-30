@@ -59,7 +59,18 @@ a {
     color: white;
     text-decoration: none;
     padding-right: 10px;
-    position: relative; top: 30px;
-    position: relative; right: 460px;
+    position: relative;
+    top: 30px;
+    position: relative;
+    right: 460px;
     font-size: 20px;
+}
+
+#name {
+    float: left;
+    position: absolute;
+    top: 23px;
+    background-color: #4aaaa5;
+    font-size: 25pt;
+    color: white;
 }

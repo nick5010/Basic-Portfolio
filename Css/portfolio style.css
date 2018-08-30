@@ -13,15 +13,6 @@
     height: 80px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    padding-right: 10px;
-    position: relative; top: 30px;
-    position: relative; right: 460px;
-    font-size: 20px;
-}
-
 .wrapper {
     width: 960px;
     background: white;
@@ -35,9 +26,22 @@ a {
 
 body {
     background: url(http://i.pinimg.com/originals/97/14/16/971416d7e102e2de163c3a1cb7a374e7.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-color: #777777;
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: #777777;
+}
+
+#nav1,
+#nav2,
+#nav3 {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+    top: 30px;
+    position: relative;
+    right: 460px;
+    font-size: 20px;
 }
 
 .footer {
@@ -55,4 +59,38 @@ h1 {
     border-bottom: solid lightgray 2px;
     color: #4aaaa5;
     font: Georgia;
+}
+
+#name {
+    float: left;
+    position: absolute;
+    top: 23px;
+    background-color: #4aaaa5;
+    font-size: 25pt;
+    color: white;
+}
+
+#hangman,
+#trivia,
+#rps {
+    display: block;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    color: white;
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+#widget,
+#rpg {
+    display: block;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    color: white;
+    float: right;
+    width: 50%;
+    margin-top: 20px; 
+    margin-left: 30px;
 }
