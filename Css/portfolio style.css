@@ -70,9 +70,7 @@ h1 {
     color: white;
 }
 
-#hangman,
-#trivia,
-#rps {
+.hangman {
     display: block;
     background-color: #4aaaa5;
     text-decoration: none;
@@ -80,17 +78,43 @@ h1 {
     float: left;
     width: 40%;
     margin-top: 20px;
-
 }
 
-#widget,
+.hangman {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+}
+
+#hang{
+    top: 37%;
+    left: 31.01%;
+}
+
+#img1 {
+    z-index: 0;
+}
+
+.cards {
+    text-align: center;
+}
+
 #rpg {
-    display: block;
-    background-color: #4aaaa5;
-    text-decoration: none;
-    color: white;
-    float: right;
-    width: 50%;
-    margin-top: 20px; 
-    margin-left: 30px;
+    right: 31%;
+    top: 37%;
+}
+
+#triv {
+    left: 31.01%;
+    top: 54%;
+}
+
+#widg {
+    right: 31%;
+    top: 54%;
+}
+
+#rock {
+    left: 31.01%;
+    top: 70.5%;
 }
